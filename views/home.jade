@@ -6,12 +6,11 @@ html(lang="en")
 		<!-- FONTS -->
 		<link href='http://fonts.googleapis.com/css?family=Rock+Salt' rel='stylesheet' type='text/css'>
 		<link href='http://fonts.googleapis.com/css?family=Covered+By+Your+Grace' rel='stylesheet' type='text/css'>
-
-		title scrumblr
+		title Mémo UPBM
 
 body
-	h1 scrumblr by <a href="http://aliasaria.ca">aliasaria</a>
-
+	h1 Scrumblr par <a href="http://aliasaria.ca">Ali Asaria</a> et francisé par <a href="http://upbm.org">stef</a> 
+	h2 Scrumblr est un tableau de post-it collaboratif
 	div.board-outline
 		div#board
 			div#board-doodles
@@ -20,18 +19,19 @@ body
 			table#board-table.board-table
 				tr
 					td
-						h1.home scrumblr.
+						h1.home Mémo de l'UPBM
 						form.home(onsubmit="return go();")
-							label name your new board:
+							label Nommer votre nouveau tableau :
 							br
 							input.text(type="text", name="name")
-							a#go(onclick="return go();") &nbsp;go.
+							a#go(onclick="return go();") &nbsp;Allons-y.
 						<br><br>
-						p.home example board:
+						p.home Exemple :
 						p.home!= '<a href="http://' + locals.url + '/demo">' + locals.url + '/demo</a>'
 						<br><br><br>
-						p.home.small sourcecode at <a href="https://github.com/aliasaria/scrumblr">github</a>
-
+						p.home.small Code source disponible sur <a href="https://github.com/aliasaria/scrumblr">Github</a>
+					
+					
 	div.stickers
 		div.sticker#sticker-red
 		div.sticker#sticker-blue

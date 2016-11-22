@@ -321,7 +321,7 @@ function drawNewCard(id, text, x, y, rot, colour, sticker, animationspeed) {
         submit: 'OK',
         style: 'inherit',
         cssclass: 'card-edit-form',
-        placeholder: 'Double Click to Edit.',
+        placeholder: 'Double-cliquez pour éditer',
         onblur: 'submit',
         event: 'dblclick', //event: 'mouseover'
     });
