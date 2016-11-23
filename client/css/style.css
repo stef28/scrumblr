@@ -664,11 +664,9 @@ img {
 #revisions-list li img {
     margin-left: 10px;
 }
-@media screen and (max-width: 1280px)
+@media screen and (max-width: 1980px)
 
 {
-
-    /* Rédigez vos propriétés CSS ici */
 
 tuto {
 	font-family: 'Helvetica Neue Light', arial, serif;
@@ -682,12 +680,12 @@ tuto {
         xwidth: 2000px;
 	position: absolute;
     	left:0px;
-	right: 1000px;
+	right: 150px;
     	top: 700px;
 	-o-user-select:none;
         -moz-user-select: none;
         -khtml-user-select: none;
         -webkit-user-select: none;
 	background-image: url('bg/concrete_wall_2_2.png');
-
+	}
 }
